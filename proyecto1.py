@@ -18,5 +18,9 @@ def prob_4(n,F):
 	jamon=(n-largo)//2
 	r=("*"*jamon+F+"*"*jamon)
 	return r
-	
+
+
+def prob_5(l1, l2):
+	a=l1[2]*l2[1]-l1[1]*l2[1], l1[2]*l2[0]-l1[0]*l2[2], l1[0]*l2[2]-l1[2]*l2[2]
+	return a
 
